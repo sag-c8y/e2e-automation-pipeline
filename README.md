@@ -6,3 +6,4 @@ Mentioned article is concentrated on the continuous integration workflow itself,
 
 We can find the article by this link: 
 https://www.blazemeter.com/blog/qa-automation-pipeline-learn-how-to-build-your-own
+new
