@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: winrun1
+    runs-on: winrun2
 
 
     steps:
