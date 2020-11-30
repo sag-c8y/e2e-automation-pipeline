@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: winrun3
+    runs-on: self-hosted
 
 
     steps:
