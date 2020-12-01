@@ -12,6 +12,8 @@ jobs:
     runs-on: self-hosted
 
     steps:
+    - name: show user
+      run: whoami    
     - uses: actions/checkout@v2
     - name: Build and push
       uses: mr-smithers-excellent/docker-build-push@v4
