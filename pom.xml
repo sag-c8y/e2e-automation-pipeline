@@ -82,6 +82,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven.compiler.plugin}</version>
                 <configuration>
+                    <argLine>-Xmx2048m</argLine>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
