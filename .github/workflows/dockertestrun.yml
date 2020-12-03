@@ -14,4 +14,4 @@ jobs:
     - uses: actions/checkout@v2
     - run: docker run -td --name testenv bossraths/samplerepo:latest
     - run: docker cp . testenv:/newwwwww
-    - run: docker exec -it testenv ls ./newwwwww
+    - run: docker exec testenv ls ./newwwwww
