@@ -11,15 +11,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    steps:
-    - name: show user
-      run: whoami    
+    steps:    
     - uses: actions/checkout@v2
     - name: Build and push
-      uses: mr-smithers-excellent/docker-build-push@v4
-      with:
-        image: ${{ secrets.USERNAME }}/samplerepo
-        tag: latest
-        registry: docker.io
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+      run: docker build ../e2e-automation-pipeline
