@@ -26,5 +26,5 @@ ENV MAVEN_HOME /usr/share/maven
 ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 
 COPY . /home/work_dir
-RUN cat /home/work_dir/pom.xml
+RUN cat /proc/meminfo
 # RUN mvn -B -f /home/work_dir install
