@@ -27,4 +27,4 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 
 COPY . /home/work_dir
 
-RUN mvn -B -f /home/work_dir -DskipTests install
+RUN mvn -B -f /home/work_dir install
